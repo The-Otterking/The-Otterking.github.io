@@ -35,8 +35,19 @@
 body{
     font-family: var(--font-normal);
     line-height: 1.5;
+    background-color: var(--muted);
+    
 }
-
+header h3{
+    text-align: center;
+    width: 1000px ;
+    height: 100px;
+    border-radius: 6rem;
+    background-color: var(--primary-tint)
+}
+p.dashed{
+    border-style: dashed;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: var(--font-heading);
     margin-bottom: 0.5rem;
@@ -235,3 +246,4 @@ link:active{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/******************************** others*************************************************/
