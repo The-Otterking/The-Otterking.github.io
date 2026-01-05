@@ -35,15 +35,8 @@
 body{
     font-family: var(--font-normal);
     line-height: 1.5;
-    background-color: var(--muted);
+    background-color: var(--light);
     
-}
-header h3{
-    text-align: center;
-    width: 1000px ;
-    height: 100px;
-    border-radius: 6rem;
-    background-color: var(--primary-tint)
 }
 p.dashed{
     border-style: dashed;
@@ -53,6 +46,45 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 0.5rem;
 }
 /******************buttons************************/
+.navbar{
+    overflow: hidden;
+    background-color: #000043;
+    font-size: var(--font-normal);
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: var(--primary);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: var(--muted);
+    padding: 14px 16px;
+    background-color: #000043;
+    font-size: var(--font-normal);
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: var(--primary-tint);
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var(--primary);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px var(--shadow-dark);
+    z-index: 1;
+
+}
 .btn{
     border: none;
     border-radius: var(--spacing-2);
