@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6{
     outline: none;
     color: var(--muted);
     padding: 14px 16px;
-    background-color: #000043;
+    background-color: var(--primary-tint);
     font-size: var(--font-normal);
     margin: 0;
 }
@@ -83,7 +83,20 @@ h1,h2,h3,h4,h5,h6{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px var(--shadow-dark);
     z-index: 1;
-
+}
+.dropdown-content a{
+    float: none;
+    color: var(--light);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: var(--primary-tint);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 .btn{
     border: none;
