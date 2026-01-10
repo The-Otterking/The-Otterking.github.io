@@ -48,13 +48,13 @@ h1,h2,h3,h4,h5,h6{
 /******************buttons************************/
 .navbar{
     overflow: hidden;
-    background-color: #000043;
+    background-color: var(--primary);
     font-size: var(--font-normal);
 }
 .navbar a{
     float: left;
     font-size: 16px;
-    color: var(--primary);
+    color: var(--light);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -67,11 +67,13 @@ h1,h2,h3,h4,h5,h6{
     font-size: 16px;
     border: none;
     outline: none;
-    color: var(--muted);
+    color: var(--light);
     padding: 14px 16px;
-    background-color: var(--primary-tint);
+    background-color: var(--primary);
     font-size: var(--font-normal);
     margin: 0;
+    font-family: inherit;
+    line-height: inherit;
 }
 .navbar a:hover, .dropdown:hover .dropbtn{
     background-color: var(--primary-tint);
@@ -292,3 +294,7 @@ link:active{
     }
 }
 /******************************** others*************************************************/
+
+tr {
+    color: var(--light);
+}
