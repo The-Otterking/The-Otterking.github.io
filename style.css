@@ -295,6 +295,15 @@ link:active{
 }
 /******************************** others*************************************************/
 
-tr {
-    color: var(--light);
+h1{
+    color: var(--muted);
+}
+p{
+    color: var(--muted);
+}
+div :left{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
 }
