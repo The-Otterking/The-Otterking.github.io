@@ -295,7 +295,8 @@ link:active{
 }
 /******************************** others*************************************************/
 div.dashed{
-    color: var(--primary-tint);
+    color: var(--muted-shade);
     border-style: dashed;
     margin: var(--spacing-2);
+    padding: var(--spacing-2);
 }
