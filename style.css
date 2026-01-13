@@ -294,16 +294,8 @@ link:active{
     }
 }
 /******************************** others*************************************************/
-
-h1{
-    color: var(--muted);
-}
-p{
-    color: var(--muted);
-}
-div :left{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
+div.dashed{
+    color: var(--primary-tint);
+    border-style: dashed;
+    margin: var(--spacing-2);
 }
