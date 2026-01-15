@@ -300,3 +300,7 @@ div.dashed{
     margin: var(--spacing-2);
     padding: var(--spacing-2);
 }
+img{
+    width: 200px;
+    height: 200px;
+}
