@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--primary);
     font-size: var(--font-normal);
 }
-.navbar a{
+.navbar a, .dropbtn a{
     float: left;
     font-size: 16px;
     color: var(--light);
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
 }
 .dropdown{
-    float: left;
+
     overflow: hidden;
 }
 .dropdown .dropbtn {
@@ -299,13 +299,20 @@ div.dashed{
     border-style: dashed;
     margin: var(--spacing-2);
     padding: var(--spacing-2);
+    border-radius: 15px; 
+}
+.dashed a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: var(--primary);
 }
 img{
     width: 200px;
     height: 200px;
 }
 .static-image{
-    background-image: linear-gradient(var(--primary), var(--primary-shade)), url(rotating\green\geographic\coordinate\system.gif);
+    background-image: url(feel_good.jpg);
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
