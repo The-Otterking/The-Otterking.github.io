@@ -184,9 +184,9 @@ link:active{
     grid-row: span 2;
     
     aspect-ratio: 1/1;
-    width: 4rem;
+    /*width: 4rem;*/
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 77px;
 }
 .profile .name {
     grid-column: 2;
@@ -322,4 +322,27 @@ img{
 }
 h3{
     text-align: center;
+}
+h2{
+    animation: bounce 1s ease 1 alternate;
+}
+@keyframes bounce{
+    0%{
+        scale: 0;
+    }
+    30%{
+        scale: 1.5;
+    }
+    40%{
+        scale: .7;
+    }
+    60%{
+        scale: 1.2;
+    }
+    80%{
+        scale: .9;
+    }
+    100%{
+        scale: 1;
+    }
 }
