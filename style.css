@@ -304,3 +304,14 @@ img{
     width: 200px;
     height: 200px;
 }
+.static-image{
+    background-image: linear-gradient(var(--primary), var(--primary-shade)), url(rotating\green\geographic\coordinate\system.gif);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h3{
+    text-align: center;
+}
